@@ -1,13 +1,20 @@
 @font-face {
-    font-family: myfstfont;
+    font-family: RubikDirt;
     src: url(../webfonts/en/RubikDirt.ttf);
+}
+@font-face {
+    font-family: "msb";
+    src: url(../webfonts/en/msb.ttf);
 }
 html {
     font-size: 32px;
     scroll-behavior: smooth;
 }
 body {
-    font-family: myfstfont;
+    font-family: RubikDirt;
+}
+p {
+  font-family: "msb";
 }
 .container {
 margin: 0 auto;
